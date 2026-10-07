@@ -1,0 +1,15 @@
+{
+  "name": "lesecoach",
+  "version": "1.0.0",
+  "description": "Progressive Web App für Leseförderung und Aussprachetraining",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

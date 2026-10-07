@@ -1,0 +1,50 @@
+{
+  "name": "Lesecoach – Vorlese- & Sprachtrainer",
+  "short_name": "Lesecoach",
+  "description": "Dein intelligenter Begleiter zum Lesen lernen, Vorlesen lassen und Aussprache trainieren mit Sprachanalyse.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "lang": "de-DE",
+  "dir": "ltr",
+  "categories": ["education", "books", "productivity"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Vorlesemodus",
+      "short_name": "Vorlesen",
+      "description": "Text mit synchroner Texthervorhebung vorlesen lassen",
+      "url": "./index.html?mode=listen",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Lese-Coach (Mitsprechen)",
+      "short_name": "Mitsprechen",
+      "description": "Laut vorlesen und Aussprache analysieren",
+      "url": "./index.html?mode=coach",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
